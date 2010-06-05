@@ -720,3 +720,755 @@ Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 00:42
   Parameters: {"noCache"=>"1275694966099", "q"=>"", "limit"=>"20"}
   [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE '%') ORDER BY name ASC[0m
 Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 20:47:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 20:47:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 20:47:35) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 113ms (View: 92, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 20:55:44) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 20:55:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 20:56:35) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 27ms (View: 19, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 20:56:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 20:56:37) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 20:56:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 20:57:07) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 20:57:27) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:09:23) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 95ms (View: 16, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:09:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/src/grid.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:10:37) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:14:12) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 24ms (View: 18, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:14:29) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 21ms (View: 16, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 23ms (View: 18, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/messages/images/logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/messages/images/rss_1.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/messages/images/rss_2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/messages/images/rss_3.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/main_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/messages/images/search.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/messages/images/send.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/search_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:26:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:28:26) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 22ms (View: 17, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:28:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/main_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:28:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:28:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/search_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:28:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:28:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/main_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:28:41) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 103ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:28:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:28:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:30:35) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+
+ActionView::TemplateError (undefined local variable or method `root_path' for #<ActionView::Base:0x10339c9d0>) on line #19 of app/views/layouts/application.html.erb:
+16: <div class='main'>
+17:   <div class='header_resize'>
+18:     <div class='header'>
+19:       <div class='logo'><%= link_to 'BREAK FOR CODE', root_path %></div>
+20:       <div class='menu'>
+21:         <ul>
+22:           <li><a href='index.html'>Home</a></li>
+
+    app/views/layouts/application.html.erb:19
+
+Rendered rescues/_trace (115.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:33:52) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 96ms (View: 87, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:33:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:33:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:34:11) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 23ms (View: 18, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:34:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:34:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:34:19) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:34:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:34:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:35:05) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:35:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:35:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:35:13) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:35:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:35:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:35:41) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:35:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/header_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:35:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/slider_bg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:36:55) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:37:10) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 21:37:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:37:21) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 21:37:23) [POST]
+  Parameters: {"noCache"=>"1275770243584", "q"=>"Jo", "limit"=>"20"}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 81ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=Jo]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 21:37:50) [POST]
+  Parameters: {"noCache"=>"1275770270891", "q"=>"Joh", "limit"=>"20"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE (lower(name) LIKE 'joh%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=Joh]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:44:42) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+
+ActionView::TemplateError (No expansion found for :externals) on line #8 of app/views/layouts/application.html.erb:
+5: <head>
+6:   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+7:   <title>Break For Code Demos</title>
+8:   <%= stylesheet_link_tag :externals, 'application' %>
+9:   <!--[if lt IE 8]><%= stylesheet_link_tag 'ie' %><![endif]-->
+10:   <%= javascript_include_tag :mootools, :plugins, 'application' %>
+11: </head>
+
+    app/views/layouts/application.html.erb:8
+
+Rendered rescues/_trace (44.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:44:51) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 93ms (View: 22, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:47:24) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 21:48:57) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:13:48) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Reflection) on line #26 of app/views/layouts/application.html.erb:
+23: 	
+24:       <div class="one column">
+25:         <div class="column_content">	
+26:           <%= link_to "Reflections", admin_reflection_images_path(Reflection.first), :class => "action" %>
+27:         </div>
+28:       </div>
+29:     
+
+    app/views/layouts/application.html.erb:26
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:13:54) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+
+ActionView::TemplateError (undefined local variable or method `flash_messages' for #<ActionView::Base:0x103267ab0>) on line #56 of app/views/layouts/application.html.erb:
+53: <!-- ====================================== MAIN ====================================== -->
+54: <div id="main" class="fluid_grid_layout">
+55:   <div class="six_column section">
+56:     <%= flash_messages %>
+57:     <%= yield :layout %>
+58:   </div>
+59: </div>
+
+    app/views/layouts/application.html.erb:56
+
+Rendered rescues/_trace (123.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:14:31) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:14:56) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:15:01) [POST]
+  Parameters: {"noCache"=>"1275772501603", "q"=>"Jo", "limit"=>"20"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 8ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=Jo]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:15:31) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 97ms (View: 92, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:16:23) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 107ms (View: 20, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:17:17) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:18:20) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 21ms (View: 16, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:18:29) [POST]
+  Parameters: {"noCache"=>"1275772709426", "q"=>"Jo", "limit"=>"20"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 8ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=Jo]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:18:30) [POST]
+  Parameters: {"noCache"=>"1275772710698", "q"=>"JO", "limit"=>"20"}
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=JO]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:19:39) [POST]
+  Parameters: {"noCache"=>"1275772779477", "q"=>"jo", "limit"=>"20"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=jo]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:19:44) [POST]
+  Parameters: {"noCache"=>"1275772784618", "q"=>"joh", "limit"=>"20"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE (lower(name) LIKE 'joh%') ORDER BY name ASC[0m
+Completed in 8ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=joh]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:19:45) [POST]
+  Parameters: {"noCache"=>"1275772785431", "q"=>"john", "limit"=>"20"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE 'john%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=john]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 22:20:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 22:20:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:20:20) [GET]
+
+ActionView::MissingTemplate (Missing template home/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:20:32) [GET]
+Rendering template within layouts/application
+Rendering home/show
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:21:26) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 117ms (View: 109, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:21:38) [GET]
+Rendering template within layouts/application
+Rendering home/show
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:21:57) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:23:08) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:23:13) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 95ms (View: 90, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:23:16) [POST]
+  Parameters: {"noCache"=>"1275772996515", "q"=>"Jo", "limit"=>"20"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=Jo]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:24:18) [GET]
+Rendering template within layouts/application
+Rendering home/show
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:24:45) [GET]
+Rendering template within layouts/application
+Rendering home/show
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:25:25) [GET]
+Rendering template within layouts/application
+Rendering home/show
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:25:32) [GET]
+Rendering template within layouts/application
+Rendering home/show
+Completed in 81ms (View: 79, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:26:02) [GET]
+Rendering template within layouts/application
+Rendering home/show
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#show (for 127.0.0.1 at 2010-06-05 22:26:37) [GET]
+Rendering template within layouts/application
+Rendering home/show
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:26:49) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:26:56) [POST]
+  Parameters: {"noCache"=>"1275773216706", "q"=>"jO", "limit"=>"20"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=jO]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:26:58) [POST]
+  Parameters: {"noCache"=>"1275773218171", "q"=>"jo", "limit"=>"20"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=jo]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:27:11) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:27:14) [POST]
+  Parameters: {"noCache"=>"1275773234952", "q"=>"jO", "limit"=>"20"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=jO]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:27:16) [POST]
+  Parameters: {"noCache"=>"1275773236466", "q"=>"Jo", "limit"=>"20"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=Jo]
+
+
+Processing MessagesController#new (for 127.0.0.1 at 2010-06-05 22:27:32) [GET]
+Rendering template within layouts/application
+Rendering messages/new
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/messages/new]
+
+
+Processing UsersController#auto_complete_name (for 127.0.0.1 at 2010-06-05 22:27:34) [POST]
+  Parameters: {"noCache"=>"1275773254890", "q"=>"Jo", "limit"=>"20"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (lower(name) LIKE 'jo%') ORDER BY name ASC[0m
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/users/auto_complete_name?limit=20&q=Jo]

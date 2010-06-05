@@ -7,3 +7,9 @@ ActionView::Helpers::AssetTagHelper.register_javascript_expansion :plugins => [
   'plugins/BGIframe',
   'plugins/Meio.Autocomplete'
 ]
+
+ActionView::Helpers::AssetTagHelper.register_stylesheet_expansion :externals => [
+  'externals/fluid.gs',
+  'externals/formtastic',
+  'externals/meio-autocomplete'
+]
