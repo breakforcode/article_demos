@@ -28,12 +28,12 @@ div.section div.column {border-left:1px solid #ccc;}
 div.section div.column:last-child {border-right:1px solid #ccc;}
 div.section div.column_content {padding:18px 5px 0px 5px; margin:0 5px; line-height:1.5em;}
 
-div#header {background:#191919; margin:0; height:66px; width:100%; border-bottom:6px solid #0C0C0C;}
+div#header {background:#152038; margin:0; height:66px; width:100%; border-bottom:6px solid #0C0C0C;}
 div#header div.section {margin:0 10%; width:80%;}
 div#header div.section div.column {background:none; border:none;}
 div#header div.section div.column_content {margin:0; padding:0;}
 div#header div.section div.column_content h1 {margin:18px 10px; height:35px; color: #fff;}
-div#header div.section div.column_content a {z-index:1000; }
+div#header div.section div.column_content a {z-index:1000;color:white;}
 
 
 /* SYSTEM MESSAGES
@@ -52,6 +52,3 @@ div.flash ul,.errorExplanation ul,.error ul,.notice ul{margin-left:0;}
 .fieldWithErrors label:before{content:"* ";}
 div.notice{background-color:#E0F5CC;}
 
-form.formtastic ul {
-  list-style: none;
-}
